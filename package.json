@@ -1,0 +1,13 @@
+{
+  "name": "discord-emoji-duplicate-remover",
+  "version": "1.0.0",
+  "description": "A utility to remove duplicate emojis across discord servers",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.18.0"
+  },
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  }
+}
